@@ -65,10 +65,11 @@ Or using yarn:
 yarn install
 ```
 
-### Create a `.env.local` file in the root directory of the project, and add the following line:
+### Create a `.env` file in the root directory of the project, and add the following line:
 
 ```bash
-MONGO_URI=your_mongodb_connection_string
+# Private
+SECRET_MONGO_URI=your_mongodb_connection_string
 ```
 
 Replace `your_mongodb_connection_string` with your actual MongoDB connection string.
